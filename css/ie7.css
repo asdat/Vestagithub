@@ -1,0 +1,46 @@
+html{
+	overflow-x:hidden; /*IE7 fix for horizontal scrollbar*/
+}
+
+div.hr-top .long{
+	*height:1px;/*ie7 fix*/
+	*margin-top:8px;/*ie7 fix*/
+}
+
+div.date-box div{
+	*overflow: hidden;/*as of IE7, overflow became a layout-trigger.*/		
+}
+
+div.date-box .line1{
+	*line-height:22px; /*IE7 fix*/
+}
+
+div.date-box .line2{
+	*margin-top:12px;/*IE7 fix*/
+}
+
+div.date-box .line3{
+	*padding-bottom:5px;/*IE7 fix*/
+}
+
+.sf-menu, .sf-menu * {
+	*z-index:2100;
+}
+
+.page-content-wrapper{
+	z-index:1 !important;
+} 
+
+.page-content-wrapper .page-content{
+	*float:left  !important;
+	*position:inherit !important;
+}
+
+.full-content-width-no-right-padding,
+.full-content-width{
+	position:relative !important;
+}
+
+.page-column1-blog{
+	float:right !important;
+}

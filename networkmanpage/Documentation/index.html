@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title># identity - Creative vCard / Personal portfolio HTML Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+.style3 {
+	font-size: 36%
+}
+    </style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Template Documentation &ldquo;# identity - Creative vCard / Personal portfolio v1&ldquo;</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;# identity - Creative vCard / Personal portfolio&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 27/12/2011<br>
+					By: NORDiX<br>
+					Email: <a href="mailto:pavelyakov@gmail.com">pavelyakov@gmail.com</a>					</strong>				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/NORDiX">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psdFiles">PSD Files</a></li>
+            <li><a href="#php">PHP Files</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>The basic page is index.html. It contains three basic blocks <strong>top</strong> , <strong>center</strong> , <strong>bottom</strong>:</p>
+        <p>There is full description and content of  HTML-code in each of them.</p>
+		
+		<img src="assets/images/code-html.jpg" alt="HTML Structure" /><br><br>
+
+      <p>Examples of editing the template:</p>
+
+<p>If you need to change options of parameters of the skills progressbar you need to change file custom.js in folder js</p>
+<blockquote>
+  <p class="notice">$(".pr1").progression({<br>
+                Current: 100,<span class="added"> // Change Your percent skill</span><br>
+
+                Easing: 'easeOutExpo',<br>
+
+                aBackgroundImg: 'images/progress.png'<br>
+
+    });</p>
+</blockquote>
+<p>Also you can find more details about documentation on plugin site of developer:</p>
+<p>PogressBar   <a href="http://www.anthor.net/labs/jquery-progression/">http://www.anthor.net/labs/jquery-progression/</a></p>
+<p> If you have any questions feel free to ask for my e-mail <strong><a href="mailto:pavelyakov@gmail.com">pavelyakov@gmail.com</a></strong> <a href="#credits">or site of developer</a></p><br>
+
+<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>There are three css files necessary for customization.</p> 
+
+         <ol>
+			<li><strong>"css/style.css"</strong>  -Is the main css file.</li>
+            <li><strong>"css/reset.css"</strong>  -Is the reset html css file.</li>
+            <li><strong>"css/jquery.jscrollpane.css"</strong>  -Plugin jscrollpane css file.</li>
+            <li><strong>"css/prettyPhoto.css"</strong>  -Is the prettyPhoto css file.</li>
+            <li><strong>"css/fonts.css"</strong>  -Is the @font-face css file.</li>
+            <li><strong>"css/ie.css"</strong>  -Is the fix IE 7-8 css file.</li>
+		</ol>
+      <p>The style.css file is separated sections:</p>
+        
+<p>/***** Import Reset File *****/<br>
+
+<br>
+/***** General *****/<br>
+
+<br>
+/***** Typography & Element *****/
+<br>
+<br>
+/***** Menu *****/
+<br>
+<br>
+/***** Page start*****/
+<br>
+<br>
+/***** Content *****/
+<br>
+<br>
+
+/***** Scanner *****/
+<br>
+<br>
+
+/***** Main *****/
+<br>
+<br>
+
+/***** Who *****/
+<br>
+<br>
+
+/***** Resume page *****/
+<br>
+<br>
+/***** Portfolio page *****/
+<br>
+<br>
+
+/***** Social link*****/
+<br>
+<br>
+
+/***** Contact page*****/
+<br>
+</p>
+
+
+        
+
+<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+        <ol>
+<li><strong>"jquery-1.6.4.min.js"</strong>   -jQuery JavaScript Library</li>
+<li><strong>"js/jquery.progression.1.3.js"</strong>   -Jquery Progressbar plugin</li>
+<li><strong>"js/jquery.easing.1.3.js"</strong>   -Jquery Easing plugin</li>
+<li><strong>"js/cufon-yui.js"</strong>   -Cufon script</li>
+<li><strong>"js/Yanone_Kaffeesatz_400-700.font.js"</strong>   -Cufon font Yanone_Kaffeesatz script</li>
+<li><strong>"js/jquery.form.js"</strong> -Jquery form plugin</li>
+<li><strong>"js/jquery.ufvalidator-1.0.5.js"</strong> -Jquery validate form plugin</li>
+
+<li><strong>"js/jquery.mousewheel.js"</strong> -Jquery mousewheel plugin</li>
+<li><strong>"js/jquery.jscrollpane.min.js"</strong> -Jquery jscrollpane plugin</li>
+
+<li><strong>"js/jquery.prettyPhoto.js"</strong>   -prettyPhoto gallery plugin</li>
+
+<li><strong>"js/jquery.text-effects.js"</strong>   -Jquery text effects plugin</li>
+
+<li><strong>"js/custom.js"</strong>   - Main custom script</li>
+
+
+		</ol>
+		
+		<hr>
+		
+		<h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+        <p>The PSD folder contains seven psd file:</p>
+        
+        <ul>
+            <li><strong>PSD/button-start.psd</strong></li>
+            <li><strong>PSD/progressbar-skills.psd</strong></li>
+            <li><strong>PSD/JohnDoe.psd</strong></li>
+	  </ul>
+		
+<hr>
+
+
+<h3 id="php"><strong>E) PHP Files </strong> - <a href="#toc">top</a></h3>
+		
+        <p>The /php folder contains php files to send from your site to e-mail:</p>
+        
+        <ul>
+            <li><strong>php/contact.php</strong></li>
+		</ul>
+		<p>You need to edit files in the folder /php in line:</p>
+
+<p>$to = 'inform@your.com'; //your e-mail </p>
+<hr>
+
+		
+		<h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following plugins, icons, fonts or other files as listed.
+      <h4>OpenSource Projects</h4>
+<ul>
+	         <li><a href="http://jquery.com/">jQuery JavaScript Library</a></li>
+             <li><a href="http://www.anthor.net/labs/jquery-progression/">Jquery ProgressBar plugin</a></li>
+             <li><a href="http://malsup.com/jquery/form/">Jquery Form plugin</a></li>
+	        <li><a href="http://plugins.jquery.com/content/ufvalidator-107">Jquery Ufvalidator plugin</a></li>
+            <li><a href="http://cufon.shoqolate.com/generate/">Cufon Yui</a></li>
+            <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing plugin</a></li>
+            <li><a href="http://code.google.com/p/jquery-utils/wiki/MouseWheel">jQuery MouseWheel plugin</a></li>
+            <li><a href="http://www.kelvinluck.com/assets/jquery/jScrollPane/jScrollPane.html">jQuery jScrollPane plugin</a></li>
+            <li><a href="http://onehackoranother.com/projects/jquery/jquery-grab-bag/text-effects.html">jQuery text-effects plugin</a></li>
+            <li><a href="http://www.no-margin-for-errors.com">prettyPhoto gallery plugin</a></li>
+	  </ul>
+		
+
+<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>NORDiX</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div>
+<!-- end div .container -->
+</body>
+</html>
